@@ -176,7 +176,7 @@ def main(qcloud):
                             elif line == "CT":
                                 changeDNS("CT", ct_info, temp_cf_ctips, domain, sub_domain, qcloud)
         except Exception as e:
-            print("CHANGE DNS ERROR: ----Time: " + str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())) + "----MESSAGE: " + str(e))
+            print("CHANGE DNS ERROR: ----Time: " + str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())) + "----MESSAGE1: " + str(e))
 
 if __name__ == '__main__':
     qcloud = QcloudApi()
